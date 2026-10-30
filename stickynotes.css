@@ -115,6 +115,38 @@ body {
 .callout[data-callout~=sticky]:is([data-callout-metadata~=aqua]) { background-color: var(--sticky-color-aqua) !important; }
 .callout[data-callout~=sticky]:is([data-callout-metadata~=orange]) { background-color: var(--sticky-color-orange) !important; }
 
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-black]) { --sticky-color-text: black; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-white]) { --sticky-color-text: white; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-gray], [data-callout-metadata~=font-grey]) { --sticky-color-text: gray; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-silver]) { --sticky-color-text: silver; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-lightgray], [data-callout-metadata~=font-lightgrey]) { --sticky-color-text: lightgray; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-darkgray], [data-callout-metadata~=font-darkgrey]) { --sticky-color-text: darkgray; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-red]) { --sticky-color-text: red; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-darkred]) { --sticky-color-text: darkred; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-maroon]) { --sticky-color-text: maroon; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-crimson]) { --sticky-color-text: crimson; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-coral]) { --sticky-color-text: coral; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-orange]) { --sticky-color-text: orange; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-gold]) { --sticky-color-text: gold; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-yellow]) { --sticky-color-text: yellow; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-olive]) { --sticky-color-text: olive; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-lime]) { --sticky-color-text: lime; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-green]) { --sticky-color-text: green; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-darkgreen]) { --sticky-color-text: darkgreen; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-teal]) { --sticky-color-text: teal; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-aqua]) { --sticky-color-text: aqua; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-cyan]) { --sticky-color-text: cyan; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-blue]) { --sticky-color-text: blue; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-navy]) { --sticky-color-text: navy; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-darkblue]) { --sticky-color-text: darkblue; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-indigo]) { --sticky-color-text: indigo; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-purple]) { --sticky-color-text: purple; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-violet]) { --sticky-color-text: violet; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-fuchsia]) { --sticky-color-text: fuchsia; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-magenta]) { --sticky-color-text: magenta; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-pink]) { --sticky-color-text: pink; color: var(--sticky-color-text) !important; }
+.callout[data-callout~=sticky]:is([data-callout-metadata~=font-brown]) { --sticky-color-text: brown; color: var(--sticky-color-text) !important; }
+
 .callout[data-callout~=sticky]:is([data-callout-metadata~=green]) mark { background-color: var(--sticky-color-green) !important; }
 .callout[data-callout~=sticky]:is([data-callout-metadata~=red]) mark { background-color: var(--sticky-color-red) !important; }
 .callout[data-callout~=sticky]:is([data-callout-metadata~=yellow]) mark { background-color: var(--sticky-color-yellow) !important; }
